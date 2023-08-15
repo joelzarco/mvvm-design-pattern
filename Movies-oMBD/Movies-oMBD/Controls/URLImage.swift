@@ -27,6 +27,5 @@ struct URLImage: View {
         } else {
             return Image("placeholder").resizable()
         }
-        
     }
 }
