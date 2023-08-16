@@ -11,7 +11,8 @@ import SwiftUI
 struct Movies_oMBDApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MovieListScreen()
         }
     }
 }
