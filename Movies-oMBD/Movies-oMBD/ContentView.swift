@@ -17,7 +17,7 @@ struct ContentView: View {
         }
         .padding()
         .onAppear{ // just for testing client
-            HTTPClient().getMovies(search: "Batman") { result in
+            HTTPClient().getMovies(search: "Joker") { result in
                 switch result {
                 case .success(let movies):
                     print(movies)

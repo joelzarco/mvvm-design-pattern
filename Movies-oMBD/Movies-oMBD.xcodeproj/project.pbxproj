@@ -17,6 +17,7 @@
 		956E044E2A8B00C300545CC1 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E044D2A8B00C300545CC1 /* URLImage.swift */; };
 		95AF5A872A8C2AA50085635F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5A862A8C2AA50085635F /* Movie.swift */; };
 		95AF5A892A8C30BE0085635F /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5A882A8C30BE0085635F /* HTTPClient.swift */; };
+		95AF5A8B2A8C4ADD0085635F /* URL+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5A8A2A8C4ADD0085635F /* URL+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		956E044D2A8B00C300545CC1 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 		95AF5A862A8C2AA50085635F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		95AF5A882A8C30BE0085635F /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		95AF5A8A2A8C4ADD0085635F /* URL+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		956E044F2A8B00EC00545CC1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				95AF5A8A2A8C4ADD0085635F /* URL+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				956E04362A8AFE0200545CC1 /* ContentView.swift in Sources */,
 				95AF5A892A8C30BE0085635F /* HTTPClient.swift in Sources */,
 				956E044E2A8B00C300545CC1 /* URLImage.swift in Sources */,
+				95AF5A8B2A8C4ADD0085635F /* URL+extensions.swift in Sources */,
 				956E04342A8AFE0200545CC1 /* Movies_oMBDApp.swift in Sources */,
 				956E044C2A8B009400545CC1 /* Rating.swift in Sources */,
 				956E04492A8B003400545CC1 /* ImageLoader.swift in Sources */,
