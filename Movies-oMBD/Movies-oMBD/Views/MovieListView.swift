@@ -25,7 +25,7 @@ struct MovieCell: View {
     var body: some View {
         HStack(alignment: .top) {
             URLImage(url: movie.poster)
-                .frame(width: 100, height: 120)
+                .frame(maxWidth: 100, maxHeight: 120)
                 .cornerRadius(5)
                 .scaledToFit()
             //                    .aspectRatio(contentMode: .fit)
