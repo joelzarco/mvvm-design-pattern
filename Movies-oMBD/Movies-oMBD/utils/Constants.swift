@@ -10,4 +10,4 @@ import Foundation
 struct Constants {
     static let API_KEY = "e6ee3f9f" // OMDBAPI
 }
-// "https://www.omdbapi.com/?s=batman&apikey=e6ee3f9f"
+// "https://www.omdbapi.com/?i=tt7286456&apikey=e6ee3f9f"
