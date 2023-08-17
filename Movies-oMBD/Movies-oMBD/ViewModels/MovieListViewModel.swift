@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class MovieListViewModel : StateViewModel{
+class MovieListViewModel : StateViewModel{ // inherits observable
     
     @Published var movies = [MovieViewModel]() // to notify view and update itself
     let httpClient = HTTPClient()
