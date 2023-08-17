@@ -27,7 +27,11 @@ struct MovieListScreen: View {
                         self.movieListVM.searchByName(self.movieName)
                     }
                 
-                MovieListView(movies: movieListVM.movies)
+                if(self.movieListVM.loadingState == .success){
+                    MovieListView(movies: movieListVM.movies)
+                }else if(self.movieListVM.loadingState == .failed){
+                    FailedView()
+                }
             }
             .navigationTitle("Movies by oMDB")
             .preferredColorScheme(.dark)

@@ -23,7 +23,7 @@ struct URLImage: View {
     var body: some View {
       
         if let data = self.imageLoader.downloadedData {
-            return Image(uiImage: UIImage(data: data)!).resizable()
+            return Image(uiImage: UIImage(data: data)!).resizable() // error here, nil found!!!
         } else {
             return Image("placeholder").resizable()
         }
