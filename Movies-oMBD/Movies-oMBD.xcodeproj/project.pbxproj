@@ -25,6 +25,7 @@
 		95AF5A892A8C30BE0085635F /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5A882A8C30BE0085635F /* HTTPClient.swift */; };
 		95AF5A8B2A8C4ADD0085635F /* URL+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AF5A8A2A8C4ADD0085635F /* URL+extensions.swift */; };
 		95E18E872A8EC37E00DB3CB0 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E18E862A8EC37E00DB3CB0 /* MovieDetail.swift */; };
+		95E18E892A8ECF0E00DB3CB0 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E18E882A8ECF0E00DB3CB0 /* MovieDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		95AF5A882A8C30BE0085635F /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		95AF5A8A2A8C4ADD0085635F /* URL+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+extensions.swift"; sourceTree = "<group>"; };
 		95E18E862A8EC37E00DB3CB0 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		95E18E882A8ECF0E00DB3CB0 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				9571AFF12A8D6AF000BFA227 /* MovieListViewModel.swift */,
 				9571AFFB2A8DA2B100BFA227 /* StateViewModel.swift */,
+				95E18E882A8ECF0E00DB3CB0 /* MovieDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				956E044C2A8B009400545CC1 /* Rating.swift in Sources */,
 				956E04492A8B003400545CC1 /* ImageLoader.swift in Sources */,
 				956E04432A8AFE3600545CC1 /* Constants.swift in Sources */,
+				95E18E892A8ECF0E00DB3CB0 /* MovieDetailViewModel.swift in Sources */,
 				9571AFFA2A8DA15000BFA227 /* FailedView.swift in Sources */,
 				95E18E872A8EC37E00DB3CB0 /* MovieDetail.swift in Sources */,
 			);
