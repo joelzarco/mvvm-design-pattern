@@ -13,7 +13,12 @@ struct MovieListView: View {
     
     var body: some View {
         List(self.movies, id: \.imdbId){ movie in
-            MovieCell(movie: movie) // HS
+            NavigationLink {
+                MovieDetailScreen(imdbId: movie.imdbId)
+            } label: {
+                MovieCell(movie: movie)
+            }
+
         } // lst
         .listStyle(PlainListStyle())
     }

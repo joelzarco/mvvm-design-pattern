@@ -26,6 +26,7 @@ class HTTPClient{
             }
             
             guard let movieDetail = try? JSONDecoder().decode(MovieDetail.self, from: data) else{
+                print("decoding error")
                 return completion(.failure(.decodingError))
             }
             
