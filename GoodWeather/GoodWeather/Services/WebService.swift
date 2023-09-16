@@ -28,9 +28,8 @@ class Webservice {
             
             let weatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: data)
             if let weatherResponse = weatherResponse {
-                
+                completion(.success(weatherResponse.weather))
             }
-            
         }.resume()
     }
     

@@ -8,9 +8,10 @@
 import Foundation
 
 struct Constants {
+    static let apiK : String = "42cfc5a384ac9ce2b58b0dae887f0495"
     struct Urls {
         static func weatherByCity(city: String) -> URL? {
-            return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city.escaped())&appid=ef0fd9866ca027e0dca474cee84c53be")
+            return URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city.escaped())&appid=\(apiK)")
         }
         
         static func weatherUrlAsStringByIcon(icon: String) -> String {
@@ -18,3 +19,4 @@ struct Constants {
         }
     }
 }
+//https://api.openweathermap.org/data/2.5/weather?q=London&appid=42cfc5a384ac9ce2b58b0dae887f0495
