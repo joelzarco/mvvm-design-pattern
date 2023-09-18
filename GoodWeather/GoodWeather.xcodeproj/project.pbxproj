@@ -23,6 +23,8 @@
 		9586752F2AB3BA190021F4E1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586752E2AB3BA190021F4E1 /* WebService.swift */; };
 		958675322AB3BA530021F4E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958675312AB3BA530021F4E1 /* Constants.swift */; };
 		958675362AB3BAC00021F4E1 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958675352AB3BAC00021F4E1 /* URLImage.swift */; };
+		95CDE3622AB8FE4B00051FA0 /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */; };
+		95CDE3642AB900DF00051FA0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		9586752E2AB3BA190021F4E1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		958675312AB3BA530021F4E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		958675352AB3BAC00021F4E1 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 		958675332AB3BA820021F4E1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */,
+				95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -248,6 +254,7 @@
 				958675282AB3B8620021F4E1 /* AddCityScreen.swift in Sources */,
 				958675252AB3B80C0021F4E1 /* Weather.swift in Sources */,
 				958675222AB3B7A90021F4E1 /* ImageLoader.swift in Sources */,
+				95CDE3622AB8FE4B00051FA0 /* AddViewModel.swift in Sources */,
 				9586751A2AB3B4A80021F4E1 /* String+Extensions.swift in Sources */,
 				9586750B2AB3B3F20021F4E1 /* ContentView.swift in Sources */,
 				958675092AB3B3F20021F4E1 /* GoodWeatherApp.swift in Sources */,
@@ -257,6 +264,7 @@
 				9586751C2AB3B4E70021F4E1 /* UserDefaults+Extensions.swift in Sources */,
 				9586751E2AB3B5950021F4E1 /* View+Extensions.swift in Sources */,
 				9586752A2AB3B8C10021F4E1 /* SettingsScreen.swift in Sources */,
+				95CDE3642AB900DF00051FA0 /* WeatherViewModel.swift in Sources */,
 				9586752C2AB3B9460021F4E1 /* WeatherListScreen.swift in Sources */,
 				958675182AB3B45F0021F4E1 /* Date+Extensions.swift in Sources */,
 			);
