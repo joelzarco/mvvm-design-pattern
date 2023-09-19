@@ -11,17 +11,22 @@ import SwiftUI
 struct AddCityScreen: View {
     
     @Environment(\.presentationMode) private var presentationMode
-    @State private var city: String = ""
+    @StateObject private var addCityVM = AddCityViewModel()
+    @EnvironmentObject var store : Store
     
     var body: some View {
         
         VStack {
             VStack(spacing: 20) {
-                TextField("Enter city", text: $city)
+                TextField("Enter city", text: $addCityVM.city)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 Button("Save") {
                     // save weather in environment object
-                   
+                    addCityVM.save { weather in
+                        store.addWeather(weather)
+//                        print(weather.city)
+                        presentationMode.wrappedValue.dismiss()
+                    }
                     
                 }.padding(10)
                 .frame(maxWidth: UIScreen.main.bounds.width/4)

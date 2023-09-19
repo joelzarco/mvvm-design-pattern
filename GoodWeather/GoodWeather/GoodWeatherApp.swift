@@ -13,6 +13,7 @@ struct GoodWeatherApp: App {
         WindowGroup {
 //            ContentView()
             WeatherListScreen()
+                .environmentObject(Store())
         }
     }
 }

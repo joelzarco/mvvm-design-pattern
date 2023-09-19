@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AddViewModel : ObservableObject{
+class AddCityViewModel : ObservableObject{
     var city : String = ""
     
     func save(completion: @escaping (WeatherViewModel) -> Void){

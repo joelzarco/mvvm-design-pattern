@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9570E6D42ABA4B7C0071E6E5 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9570E6D32ABA4B7C0071E6E5 /* Store.swift */; };
 		958675092AB3B3F20021F4E1 /* GoodWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958675082AB3B3F20021F4E1 /* GoodWeatherApp.swift */; };
 		9586750B2AB3B3F20021F4E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586750A2AB3B3F20021F4E1 /* ContentView.swift */; };
 		9586750D2AB3B3F50021F4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9586750C2AB3B3F50021F4E1 /* Assets.xcassets */; };
@@ -23,11 +24,12 @@
 		9586752F2AB3BA190021F4E1 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9586752E2AB3BA190021F4E1 /* WebService.swift */; };
 		958675322AB3BA530021F4E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958675312AB3BA530021F4E1 /* Constants.swift */; };
 		958675362AB3BAC00021F4E1 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958675352AB3BAC00021F4E1 /* URLImage.swift */; };
-		95CDE3622AB8FE4B00051FA0 /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */; };
+		95CDE3622AB8FE4B00051FA0 /* AddCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDE3612AB8FE4B00051FA0 /* AddCityViewModel.swift */; };
 		95CDE3642AB900DF00051FA0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9570E6D32ABA4B7C0071E6E5 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		958675052AB3B3F20021F4E1 /* GoodWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958675082AB3B3F20021F4E1 /* GoodWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodWeatherApp.swift; sourceTree = "<group>"; };
 		9586750A2AB3B3F20021F4E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		9586752E2AB3BA190021F4E1 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		958675312AB3BA530021F4E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		958675352AB3BAC00021F4E1 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
-		95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		95CDE3612AB8FE4B00051FA0 /* AddCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewModel.swift; sourceTree = "<group>"; };
 		95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 		9586751F2AB3B5C40021F4E1 /* GlobalState */ = {
 			isa = PBXGroup;
 			children = (
+				9570E6D32ABA4B7C0071E6E5 /* Store.swift */,
 			);
 			path = GlobalState;
 			sourceTree = "<group>";
@@ -167,7 +170,7 @@
 		958675332AB3BA820021F4E1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				95CDE3612AB8FE4B00051FA0 /* AddViewModel.swift */,
+				95CDE3612AB8FE4B00051FA0 /* AddCityViewModel.swift */,
 				95CDE3632AB900DF00051FA0 /* WeatherViewModel.swift */,
 			);
 			path = ViewModels;
@@ -254,13 +257,14 @@
 				958675282AB3B8620021F4E1 /* AddCityScreen.swift in Sources */,
 				958675252AB3B80C0021F4E1 /* Weather.swift in Sources */,
 				958675222AB3B7A90021F4E1 /* ImageLoader.swift in Sources */,
-				95CDE3622AB8FE4B00051FA0 /* AddViewModel.swift in Sources */,
+				95CDE3622AB8FE4B00051FA0 /* AddCityViewModel.swift in Sources */,
 				9586751A2AB3B4A80021F4E1 /* String+Extensions.swift in Sources */,
 				9586750B2AB3B3F20021F4E1 /* ContentView.swift in Sources */,
 				958675092AB3B3F20021F4E1 /* GoodWeatherApp.swift in Sources */,
 				9586752F2AB3BA190021F4E1 /* WebService.swift in Sources */,
 				958675362AB3BAC00021F4E1 /* URLImage.swift in Sources */,
 				958675322AB3BA530021F4E1 /* Constants.swift in Sources */,
+				9570E6D42ABA4B7C0071E6E5 /* Store.swift in Sources */,
 				9586751C2AB3B4E70021F4E1 /* UserDefaults+Extensions.swift in Sources */,
 				9586751E2AB3B5950021F4E1 /* View+Extensions.swift in Sources */,
 				9586752A2AB3B8C10021F4E1 /* SettingsScreen.swift in Sources */,

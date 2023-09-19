@@ -18,6 +18,7 @@ enum Sheets : Identifiable{
 struct WeatherListScreen: View {
     
     @State private var activeSheet : Sheets?
+    @EnvironmentObject var store : Store
         
     var body: some View {
         
@@ -31,6 +32,7 @@ struct WeatherListScreen: View {
             switch item{
                 case.addNewCity:
                     AddCityScreen()
+                    .environmentObject(store)
                 case .settings:
                     SettingsScreen()
             }
