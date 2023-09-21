@@ -11,6 +11,17 @@ struct WeatherViewModel{
     
     let weather : Weather
     
+    func getTemperatureByUnit(unit : TemperatureUnit) -> Double{
+        switch unit {
+        case .celsius:
+            return weather.temperature - 273.15
+        case .fahrenheit:
+            return 1.8 * (weather.temperature - 273) + 32
+        case .kelvin:
+            return weather.temperature
+        }
+    }
+    
     let id = UUID()
     
     var temperature : Double{

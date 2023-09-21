@@ -35,6 +35,7 @@ struct WeatherListScreen: View {
                     .environmentObject(store)
                 case .settings:
                     SettingsScreen()
+                    .environmentObject(store)
             }
         })
         .navigationBarItems(leading: Button(action: {
